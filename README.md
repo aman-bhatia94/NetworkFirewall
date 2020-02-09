@@ -10,7 +10,6 @@ comments, to explain it better
  * This class serves as the entry point for the Firewall Application
  * The class takes the path of the rules file and calls Firewall class
  * Traffic represents each packet coming to the Firewall
- * 6 test cases have been written to check the validity of the Firewall
 
 ### Firewall
 This class is responsible for creating the Rules and calling the accept_packet method
@@ -46,8 +45,8 @@ accept_packets method uses parallel streams, we can run the code in parallel. Pa
 ### Improvements that can be made
 the code can be extended to work other protocols and IPV6
 
-###Testing
-6 test cases in the main class have been written to check the code functionality
+### Testing
+The system is tested on 6 traffic packets.
 
 ### Teams that I am interested in
 Ranking(1 being the most interested in)
