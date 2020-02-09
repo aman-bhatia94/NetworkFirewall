@@ -43,7 +43,8 @@ Transformer class converts the input String traffic to a format represented by m
 accept_packets method uses parallel streams, we can run the code in parallel. Parallel streams leverages multicore processing, and thus enhances performance
 
 ### Improvements that can be made
-the code can be extended to work other protocols and IPV6
+*The code can be extended to work other protocols and IPV6
+*Currently we are checking all the rules in the system but an improvement could be to use binary search to search in a particular subspace using [Range Trees]: https://en.wikipedia.org/wiki/Range_tree
 
 ### Testing
 The system is tested on 6 traffic packets.
