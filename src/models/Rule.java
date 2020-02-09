@@ -1,5 +1,5 @@
 /**
- * This Rule class represents each rule(Direction,Protocol,IP and Port ranges)
+ * This Rule class represents each rule(Direction,Protocol,IP and Port ranges) which is used for filtering packets
  */
 package models;
 

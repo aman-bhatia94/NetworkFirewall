@@ -5,7 +5,8 @@ It will contain a list of four Integer values
 each representing the octets in IP address
 The class inplements Comparable to do comparison checks for IP of a traffic against the rules
 
-This class can be extended to use IPv6 addresses as well*/
+/*TODO extend this class to handle IPV6*/
+
 public class IPV4 implements Comparable {
 
     private Integer octetListSize;
