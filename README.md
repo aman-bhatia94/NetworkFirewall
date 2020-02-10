@@ -49,8 +49,4 @@ accept_packets method uses parallel streams, we can run the code in parallel. Pa
 ### Testing
 The system is tested on 6 traffic packets.
 
-### Teams that I am interested in
-Ranking(1 being the most interested in)
-1. Platform Team
-2. Data Team
-3. Policy Team
+
